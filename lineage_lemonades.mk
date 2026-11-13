@@ -18,6 +18,7 @@ AXION_CAMERA_REAR_INFO := 48,16,5,2
 AXION_CAMERA_FRONT_INFO := 16
 AXION_MAINTAINER := Spidey
 AXION_PROCESSOR := Snapdragon_870
+LINEAGE_BUILDTYPE=COMMUNITY
 
 # Inherit common Lineage/Axion phone configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
