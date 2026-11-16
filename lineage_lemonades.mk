@@ -23,6 +23,9 @@ LINEAGE_BUILDTYPE=COMMUNITY
 # Inherit common Lineage/Axion phone configuration.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# ViPER4Android
+$(call inherit-product, vendor/viper/viper.mk)
+
 PRODUCT_NAME := lineage_lemonades
 PRODUCT_DEVICE := lemonades
 PRODUCT_MANUFACTURER := OnePlus
