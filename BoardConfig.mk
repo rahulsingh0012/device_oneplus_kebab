@@ -30,5 +30,5 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/lemonades/BoardConfigVendor.mk
+include vendor/oneplus/kebab/BoardConfigVendor.mk
 include device/lineage/sepolicy/libion/sepolicy.mk
