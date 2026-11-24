@@ -6,8 +6,8 @@ git clone https://github.com/rahulsingh0012/vendor_oneplus_sm8250-common.git -b 
 # Common Device
 git clone https://github.com/rahulsingh0012/device_oneplus_sm8250-common.git -b lineage-24-test device/oneplus/sm8250-common 
 
-# Lemonades Vendor
-git clone https://github.com/rahulsingh0012/vendor_oneplus_lemonades.git -b lineage-23.2 vendor/oneplus/kebab
+# kebab Vendor
+git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_kebab -b lineage-23.2 vendor/oneplus/kebab
 
 # Hardware Oplus
 git clone https://github.com/rahulsingh0012/hardware_oplus.git hardware/oplus
