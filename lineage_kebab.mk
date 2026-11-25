@@ -9,12 +9,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-INFINITY_MAINTAINER := ®ahul $ingh
+INFINITY_MAINTAINER := ❥Rahul
 TARGET_HAS_UDFPS := true
 WITH_GAPPS := true
 
 TARGET_ENABLE_BLUR := true
-MISTOS_MAINTAINER := ®ahul $ingh
+MISTOS_MAINTAINER := ❥Rahul
 WITH_GMS := true
 
 # Inherit from lemonades device
@@ -36,7 +36,7 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := KB2001
 
 # Lunaris specific properties
-LUNARIS_MAINTAINER := ®ahul $ingh
+LUNARIS_MAINTAINER := ❥Rahul
 LUNARIS_BUILD_TYPE := UNOFFICIAL
 WITH_GMS := true
 TARGET_OPTIMIZED_DEXOPT := true
