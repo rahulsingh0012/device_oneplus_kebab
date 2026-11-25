@@ -46,6 +46,16 @@ TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
 SURFACE_FLINGER_BOOST := true
 TARGET_NEEDS_VULKAN_MEDIA_FIX := true
 
+# RisingOS Revived Flags
+PRODUCT_BUILD_PROP_OVERRIDES +=
+     RisingChipset="Snapdragon 865"
+     RisingMaintainer="❥Rahul"
+
+RISING_MAINTAINER := ❥Rahul
+
+# CORE build flags
+WITH_GMS := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
