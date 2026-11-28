@@ -46,26 +46,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Device Flags
 
-WITH_GMS_COMMS_SUITE := false
-
-TARGET_USE_FILES := true
-
-TARGET_USE_GPHOTOS := true
-
-WITH_PIXEL_LAUNCHER := false
-
-# Torch Control
-TORCH_STR_SUPPORTED := true
-
 # BLur
 TARGET_ENABLE_BLUR := true
 
 #UDFPS
 EXTRA_UDFPS_ANIMATIONS := true
-
-#xreality
-USE_REALITY_ENGINE := true
-
-#surfaceflinger
-$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
-$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
