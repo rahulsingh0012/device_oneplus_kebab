@@ -10,7 +10,7 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from lemonades device
-$(call inherit-product, device/oneplus/lemonades/device.mk)
+$(call inherit-product, device/oneplus/kebab/device.mk)
 
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.hbmservice_support=true
