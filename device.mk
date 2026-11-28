@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+#TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
 # Device init scripts
 PRODUCT_PACKAGES += \
@@ -69,4 +69,4 @@ $(call soong_config_set,OPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/oneplus/lemonades/lemonades-vendor.mk)
+$(call inherit-product, vendor/oneplus/kebab/kebab-vendor.mk)
