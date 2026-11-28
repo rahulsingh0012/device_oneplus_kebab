@@ -13,8 +13,8 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lunaris_device_message">Oneplus 9R</string>
-    <string name="lunaris_processor_code_message">Snapdragon® 870</string>
+    <string name="lunaris_device_message">Oneplus 8T</string>
+    <string name="lunaris_processor_code_message">Snapdragon® 865</string>
     <string name="lunaris_battery_type_message">4500 mAh</string>
     <string name="lunaris_screen_message">Amoled 120hz</string>
 </resources>
